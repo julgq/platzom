@@ -15,7 +15,7 @@ de Platzi](https://platzi.com/js), el mejor lugar de educación online.
 ```
 npm intall platzom
 
-``
+```
 
 ## Uso
 
