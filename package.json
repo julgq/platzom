@@ -1,0 +1,26 @@
+{
+  "name": "platzom",
+  "version": "0.1.0",
+  "description": "Traductor de idioma platzom",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julgq/platzom.git"
+  },
+  "keywords": [
+    "platzom",
+    "platzi",
+    "fundamentos",
+    "javascript",
+    "js"
+  ],
+  "author": "= <=> (https://github.com/julgq)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/julgq/platzom/issues"
+  },
+  "homepage": "https://github.com/julgq/platzom#readme"
+}
