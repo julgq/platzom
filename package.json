@@ -2,9 +2,10 @@
   "name": "platzom",
   "version": "0.1.0",
   "description": "Traductor de idioma platzom",
-  "main": "index.js",
+  "main": "dist/src/platzom.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel src/platzom.js -d dist",
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,11 @@
   "bugs": {
     "url": "https://github.com/julgq/platzom/issues"
   },
-  "homepage": "https://github.com/julgq/platzom#readme"
+  "homepage": "https://github.com/julgq/platzom#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "chai": "^4.1.2",
+    "mocha": "^3.5.2"
+  }
 }
